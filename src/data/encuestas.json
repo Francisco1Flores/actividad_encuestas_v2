@@ -1,0 +1,140 @@
+[
+    {
+        "id" : 1,
+        "titulo" : "Encueta de Satisfacción",
+        "descripcion" : "Por favor, tómese un momento para responer a nuestras preguntas de satisfacción",
+        "preguntas" : [
+            {
+                "id" : 1,
+                "pregunta" : "¿Cómo calificaría nuestro servicio?",
+                "opciones" : [
+                    {"id" : 1, "texto": "Exelente"},
+                    {"id" : 2, "texto" : "Bueno"},
+                    {"id" : 3, "texto" : "Regular"},
+                    {"id" : 4, "texto" : "Malo"}
+            
+                ]
+            },
+            {
+                "id" : 2,
+                "pregunta" : "¿Qué podemos mejorar?",
+                "opciones" : [
+                    {"id" : 5, "texto" : "Atención al cliente"},
+                    {"id" : 6, "texto" : "Tiempo de entrega"},
+                    {"id" : 7, "texto" : "Variedad de productos"},
+                    {"id" : 8, "texto" : "Calidad de productos"}
+                ]
+            }
+        ]
+    },
+    {
+        "id" : 2,
+        "titulo" : "Encuesta de Productos",
+        "descripcion" : "Ayúdenos a mejorar nuestros productos completando esta encuesta",
+        "preguntas" : [
+            {
+                "id" : 3,
+                "pregunta" : "¿Cuál es su producto favorito?",
+                "opciones" : [
+                    {"id" : 9, "texto" : "Producto A"},
+                    {"id" : 10, "texto" : "Producto B"},
+                    {"id" : 11, "texto" : "Producto C"},
+                    {"id" : 12, "texto" : "Producto D"}
+                ]
+            },
+            {
+                "id" : 4,
+                "pregunta" : "¿Cómo podemos mejorar nuestro servicio al cliente?",
+                "opciones" : [
+                    {"id" : 13, "texto" : "Mayor disponibilidad de atención"},
+                    {"id" : 14, "texto" : "Más opciones de contacto"},
+                    {"id" : 15, "texto" : "Respuestas más rápidas"},
+                    {"id" : 16, "texto" : "Entrnamiento al personal"}
+                ] 
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "Encuesta de Experiencia en el Sitio Web",
+        "descripcion": "Valoramos tu opinión sobre nuestro sitio web. Ayúdanos a mejorar completando esta encuesta.",
+        "preguntas": [
+          {
+            "id": 5,
+            "pregunta": "¿Qué opinas sobre la usabilidad de nuestro sitio web?",
+            "opciones": [
+              {"id": 17, "texto": "Muy fácil de usar"},
+              {"id": 18, "texto": "Fácil de usar"},
+              {"id": 19, "texto": "Neutral"},
+              {"id": 20, "texto": "Difícil de usar"},
+              {"id": 21, "texto": "Muy difícil de usar"}
+            ]
+          },
+          {
+            "id": 6,
+            "pregunta": "¿Qué funcionalidades te gustaría que añadiéramos al sitio web?",
+            "opciones": [
+              {"id": 22, "texto": "Chat en vivo"},
+              {"id": 23, "texto": "Sistema de recomendaciones"},
+              {"id": 24, "texto": "Mejora en la búsqueda"},
+              {"id": 25, "texto": "Integración con redes sociales"}
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "titulo": "Encuesta de Experiencia de Empleados",
+        "descripcion": "Queremos conocer tu experiencia laboral. Por favor, completa esta encuesta de forma honesta.",
+        "preguntas": [
+          {
+            "id": 7,
+            "pregunta": "¿Estás satisfecho con tu entorno de trabajo?",
+            "opciones": [
+              {"id": 26, "texto": "Muy satisfecho"},
+              {"id": 27, "texto": "Satisfecho"},
+              {"id": 28, "texto": "Neutral"},
+              {"id": 29, "texto": "Insatisfecho"},
+              {"id": 30, "texto": "Muy insatisfecho"}
+            ]
+          },
+          {
+            "id": 8,
+            "pregunta": "¿Qué aspectos crees que podríamos mejorar en el ambiente laboral?",
+            "opciones": [
+              {"id": 31, "texto": "Comunicación interna"},
+              {"id": 32, "texto": "Oportunidades de crecimiento"},
+              {"id": 33, "texto": "Equilibrio entre vida laboral y personal"},
+              {"id": 34, "texto": "Reconocimiento y recompensas"}
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "titulo": "Encuesta de Evaluación de Evento",
+        "descripcion": "Agradecemos tu participación en nuestro evento. Tu opinión es fundamental para futuras mejoras.",
+        "preguntas": [
+          {
+            "id": 9,
+            "pregunta": "¿Qué opinas sobre la organización y logística del evento?",
+            "opciones": [
+              {"id": 35, "texto": "Excelente"},
+              {"id": 36, "texto": "Bueno"},
+              {"id": 37, "texto": "Regular"},
+              {"id": 38, "texto": "Malo"}
+            ]
+          },
+          {
+            "id": 10,
+            "pregunta": "¿Qué temas te gustaría que abordáramos en futuros eventos?",
+            "opciones": [
+              {"id": 39, "texto": "Tecnología"},
+              {"id": 40, "texto": "Sostenibilidad"},
+              {"id": 41, "texto": "Innovación"},
+              {"id": 42, "texto": "Desarrollo profesional"}
+            ]
+          }
+        ]
+      }
+]
